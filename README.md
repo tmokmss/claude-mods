@@ -4,7 +4,7 @@ Mods for Claude Code. Install one at a Claude Code prompt, answer `y` to add the
 
 ## prompt-jump
 
-Jump the transcript to the prompts you sent: `ctrl+up` / `ctrl+down`, or `option+up` / `option+down` on macOS, where Mission Control takes `ctrl+up`. The screen tints briefly when there is no prompt further in that direction. Works in the fullscreen layout.
+Jump the transcript to the prompts you sent, slash commands included: `ctrl+up` / `ctrl+down`, or `option+up` / `option+down` on macOS, where Mission Control takes `ctrl+up`. The screen tints briefly when there is no prompt further in that direction. Works in the fullscreen layout.
 
 ```
 /plugin install prompt-jump --marketplace tmokmss/claude-mods

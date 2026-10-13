@@ -3,7 +3,7 @@ import type { EngineInterface, Register } from 'claude-code'
 import { targetOf } from './target'
 
 const PROMPT_IDS =
-  'sed -nE \'/"origin":\\{"kind":"(human|bridge)"\\}/s/.*"uuid":"([^"]*)".*/\\1/p\' "${CLAUDE_CONFIG_DIR:-$HOME/.claude}"/projects/*/"$1".jsonl'
+  'sed -nE \'/"origin":\\{"kind":"(human|bridge)"\\}|"role":"user","content":"<command-name>/s/.*"uuid":"([^"]*)".*/\\1/p\' "${CLAUDE_CONFIG_DIR:-$HOME/.claude}"/projects/*/"$1".jsonl'
 
 const FLASH = "printf '\\033]11;#3a404c\\007' > /dev/tty; sleep 0.15; printf '\\033]111\\007' > /dev/tty"
 
