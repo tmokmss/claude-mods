@@ -1,5 +1,16 @@
 {
   "name": "claude-mods",
-  "owner": { "name": "tmokmss" },
-  "plugins": [{ "name": "prompt-jump", "source": "./prompt-jump" }]
+  "owner": {
+    "name": "tmokmss"
+  },
+  "plugins": [
+    {
+      "name": "prompt-jump",
+      "source": "./prompt-jump"
+    },
+    {
+      "name": "session-prs",
+      "source": "./session-prs"
+    }
+  ]
 }

@@ -1,1 +1,1 @@
-{ "name": "prompt-jump", "version": "0.1.0", "description": "Jump the transcript to your own prompts with ctrl+up / ctrl+down" }
+{ "name": "prompt-jump", "version": "0.1.0", "description": "Jump the transcript to your own prompts with ctrl+up / ctrl+down (option+up / option+down on macOS)" }

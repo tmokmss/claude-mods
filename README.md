@@ -1,15 +1,19 @@
 # claude-mods
 
-Mods for Claude Code.
+Mods for Claude Code. Install one at a Claude Code prompt, answer `y` to add the marketplace, then pick a scope.
 
 ## prompt-jump
 
-Jump the transcript to the prompts you sent: `ctrl+up` to the previous one, `ctrl+down` to the next. The screen tints briefly when there is no prompt further in that direction. Works in the fullscreen layout.
-
-Install, at a Claude Code prompt:
+Jump the transcript to the prompts you sent: `ctrl+up` / `ctrl+down`, or `option+up` / `option+down` on macOS, where Mission Control takes `ctrl+up`. The screen tints briefly when there is no prompt further in that direction. Works in the fullscreen layout.
 
 ```
 /plugin install prompt-jump --marketplace tmokmss/claude-mods
 ```
 
-Answer `y` to add the marketplace, then pick a scope.
+## session-prs
+
+Lists every pull request created in the session (`gh pr create`) on the hint line under the prompt, each as a link.
+
+```
+/plugin install session-prs --marketplace tmokmss/claude-mods
+```

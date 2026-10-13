@@ -1,0 +1,1 @@
+{ "name": "session-prs", "version": "0.1.0", "description": "Show every pull request created in this session on the status line", "types": "./types/index.d.ts" }
